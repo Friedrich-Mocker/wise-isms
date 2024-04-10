@@ -7,7 +7,7 @@ import { SharedDataType } from '@wise-isms/shared';
   selector: 'app-nx-welcome',
   standalone: true,
   imports: [CommonModule, HttpClientModule],
-  template: ` {{ backendData | json }} `,
+  template: ` <h1>Welcome! {{ backendData | json }}</h1> `,
   styles: [],
   encapsulation: ViewEncapsulation.None,
 })
